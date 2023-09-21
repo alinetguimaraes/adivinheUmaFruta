@@ -23,8 +23,8 @@ def jogo():
     
 
     while palpite != fruta_secreta:
-        palpite=input("Digite o nome de uma fruta: ")
-        palpite.lower()
+        entrada=input("Digite o nome de uma fruta: ")
+        palpite= entrada.lower()
         if (palpite == fruta_secreta):
             print("Parabéns, você acertou! <3")
         else:
