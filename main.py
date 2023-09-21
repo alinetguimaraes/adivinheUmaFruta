@@ -6,7 +6,7 @@
 import random
 
 
-print("----- Adivinhe uma fruta <3 -----")
+print("----- Adivinhe a fruta <3 -----")
 
 nome = input("Qual o seu nome? ")
 
